@@ -16,7 +16,7 @@ This is my notes and experience in the process of learning Python, and can also 
 ## [Chapter9 字符串操作 String](/Chapter9_字符串操作_String)
 ## [Chapter10 函数_Function](/Chapter10_函数_Function)
 ## [Chapter11 Bug](/Chapter11_Bug)
-## [Chapter12 类 对象 属性 方法 继承_Class_Instance_Attributes_Methods](/Chapter12_类_对象_属性_方法_继承_Class_Instance_Attributes_Methods)
+## [Chapter12 类 对象 属性 方法 继承 Class_Instance_Attributes_Methods](/Chapter12_类_对象_属性_方法_继承_Class_Instance_Attributes_Methods)
 ## [Chapter13 模块与包 Module and Package](/Chapter13_模块与包_Module_and_Package)
 ## [Chapter14 IO Streams](/Chapter14_IO_Streams)
 ## [Chapter15 Other Tricks](/Chapter15_Other_Tricks)
