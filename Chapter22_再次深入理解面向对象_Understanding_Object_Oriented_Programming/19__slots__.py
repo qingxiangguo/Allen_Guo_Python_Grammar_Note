@@ -14,7 +14,7 @@ class Person(object):
 p = Person()
 p.name = "Allen"
 p.age = 18
-# p.address = Chicago  # You can add attribut which is not defined in __slots__
+# p.address = Chicago  # You can't add attribute which is not defined in __slots__
 
 class Person2(Person):
     pass
