@@ -1,5 +1,0 @@
-{'id': '1001', 'name': 'john', 'english': 66, 'math': 77, 'bio': 88}
-{'id': '1002', 'name': 'kh', 'english': 55, 'math': 77, 'bio': 99}
-{'id': '1003', 'name': 'dd', 'english': 44, 'math': 77, 'bio': 99}
-{'id': '1004', 'name': 'yy', 'english': 666, 'math': 55, 'bio': 33}
-{'id': '1005', 'name': 'gsd', 'english': 55, 'math': 66, 'bio': 77}
