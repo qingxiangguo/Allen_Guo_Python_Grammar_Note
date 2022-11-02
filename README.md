@@ -29,3 +29,4 @@ This is my notes and experience in the process of learning Python, and can also 
 ## [Chapter22 再次深入理解面向对象 Understanding Object Oriented Programming](/Chapter22_再次深入理解面向对象_Understanding_Object_Oriented_Programming)
 ## [Chapter23 Property](/Chapter23_Property)
 ## [Chapter24 正则表达式](/Chapter24_正则表达式)
+## [Chapter25 Numpy相关](/Chapter25_Numpy相关)
