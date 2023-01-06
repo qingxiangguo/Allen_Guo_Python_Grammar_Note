@@ -13,6 +13,7 @@ class Singleton():
         print('This is instance method')
         print(self.instance)  #同时打印实例的属性
         print(Singleton.instance, '这是类属性')
+        #print(cls.instance) 会报错
 
 f = Singleton()
 print('-------------')
