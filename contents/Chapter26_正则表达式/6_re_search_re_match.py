@@ -39,20 +39,26 @@ else:
 # 下面是更复杂的例子
 print("更复杂例子")
 
-import re
-
 # re.search example
 text = "The cat is blue. The dog is brown."
 match = re.search(r"(\w+) (\w+) (\w+) (\w+)", text)
 if match:
     print("Match found:", match.group())
-    print("Match groups:", match.groups())
+    print("Match groups:", match.groups(0))
 else:
     print("Match not found.")
 
+"""
+"match.group()"是正则表达式匹配到的整个字符串。
+"match.groups()"是正则表达式中括号捕获到的每个子串，以元组的形式返回。在上面的例子中，groups 
+包含四个字符串："The", "cat", "is", "blue"。
+"""
+
 # Output:
-# Match found: cat is blue.
-# Match groups: ('cat', 'is', 'blue', '.')
+"""
+Match found: The cat is blue
+Match groups: ('The', 'cat', 'is', 'blue')
+"""
 
 # re.match example
 text = "The cat is blue. The dog is brown."
@@ -66,4 +72,3 @@ else:
 # Output:
 # Match found: The cat is blue.
 # Match groups: ('The', 'cat', 'is', 'blue.')
-

@@ -1,8 +1,8 @@
 # Qingxiang Guo
 # {2022/7/20} {16:43}
 class Foo(object):
-    def __init__(self,name):
-        self.name=name
+    def __init__(self,name):   # 在这个类中，类属性是没有定义的，而self.name是实例属性，每个类实例都具有自己的name属性值
+        self.name=name        # 类实例会被传送到构造函数中，并赋予name实例属性
 
     def ord_func(self):
         print('实例方法')
@@ -30,6 +30,7 @@ f.class_func()  #实例对象也可以直接调用类方法，相当于f.class_f
 
 f.stat()
 Foo.stat()
+
 
 #总结：实例方法要传实例对象，类方法要传类对象（你传实例对象会帮你转成类对象），静态方法什么都不传
 #这一章其实解答了，def ord_func(self): 定义实例方法时，为什么里面有个self。f.ord_func() =  f.ord_func(f)， f会被传给self
